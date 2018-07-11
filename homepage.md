@@ -1,10 +1,13 @@
-# conference-mgeek.in
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+# [conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)
+---
+This is the Jekyll theme "conference-mgeek.in-jekyll-theme". You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+You can find the source code for conference-mgeek.in-jekyll-theme at GitHub:
+[conference-mgeek.in-jekyll-theme](https://github.com/mgeekin/conference-mgeek.in-jekyll-theme)
 
-TODO: Delete this and the text above, and describe your gem
+
+# author can be contacted at [mGeek.in](http://mgeek.in)
 
 
 ## Installation
@@ -12,13 +15,13 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "conference-mgeek.in"
+gem "conference-mgeek-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: conference-mgeek.in
+theme: conference-mgeek-jekyll-theme
 ```
 
 And then execute:
@@ -27,15 +30,34 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install conference-mgeek.in
+    $ gem install conference-mgeek-jekyll-theme
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+## layour:default 
+it use ***Bootstrap 4*** html as skelton hence all bootstrap classes are available.
+
+## layour:home
+it use default layout but it also include unordered list to all the posts in the site that can be used to display ***updates*** and ***notices***
+
+
+### navbar logo
+to change navbar logo place your png logo under directory /assets/images/logo.png and rename it as logo.png.
+to change site title change it in _config.yaml
+
+### custom navbar
+
+create a navbar.html file under _includes folder, as /_includes/navbar.html
+
+
+### custom footbar
+
+create a footbar.html file under _includes folder, as /_includes/footbar.html
+
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mgeekin/conference-mgeek.in-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
