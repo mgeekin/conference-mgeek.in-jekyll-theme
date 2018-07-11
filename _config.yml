@@ -27,7 +27,7 @@ facebook_page: mgeek.in
 
 # Build settings
 markdown: kramdown
-theme: conference-mgeek-jekyll-theme
+theme: conference-mgeek.in-jekyll-theme
 plugins:
   - jekyll-feed
 
