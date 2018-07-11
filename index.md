@@ -28,13 +28,13 @@ You can find the source code for conference-mgeek.in-jekyll-theme at [GitHub:](h
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "conference-mgeek-jekyll-theme"
+gem "conference-mgeek.in-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: conference-mgeek-jekyll-theme
+theme: conference-mgeek.in-jekyll-theme
 ```
 
 And then execute:
@@ -43,7 +43,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install conference-mgeek-jekyll-theme
+    $ gem install conference-mgeek.in-jekyll-theme
 
 ## Usage
 
