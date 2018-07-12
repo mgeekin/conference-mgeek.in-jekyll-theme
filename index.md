@@ -6,8 +6,9 @@ layout: home
 title: mGeek-conference
 ---
 
+<div class="container" markdown="1">
 
-
+<div class="row" markdown="1">
 
 # [conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)
 ---
@@ -84,3 +85,4 @@ To add a custom directory to your theme-gem, please edit the regexp in `conferen
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+</div></div>
