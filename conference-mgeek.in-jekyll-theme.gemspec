@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "conference-mgeek.in-jekyll-theme"
-  spec.version       = "0.1.16"
+  spec.version       = "0.1.17"
   spec.authors       = ["prateekrajgautam"]
   spec.email         = ["prateekrajgautam@gmail.com"]
 
-  spec.summary       = "This is jekyll theme template designed for conference website hosted by institute and colleges. create markdown files contact.md submitpaper.md … in the root directory and change theme in gem file as theme:conference-mgeek.in-jekyll-theme"
+  spec.summary       = "This is jekyll theme template designed for conference website hosted by institute and colleges. create markdown files contact.md submitpaper.md … in the root directory and change theme in gem file as `theme:conference-mgeek.in-jekyll-theme` &copy; 2018 http://mgeek.in"
   spec.homepage      = "https://github.com/mgeekin/conference-mgeek.in-jekyll-theme"
   spec.license       = "MIT"
 
