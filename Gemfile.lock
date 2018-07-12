@@ -5,6 +5,8 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    conference-mgeek.in-jekyll-theme (0.1.18)
+      jekyll (~> 3.8)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -71,6 +73,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  conference-mgeek.in-jekyll-theme
   jekyll (~> 3.8.1)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
