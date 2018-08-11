@@ -1,21 +1,16 @@
-# conference-mgeek.in-jekyll-theme
-conference-mgeek.in-jekyll-theme free theme designed by prateekrajgautam@gmail.com
-
-## [preview can be see here](http://mgeek.in/conference-mgeek.in-jekyll-theme/)
-
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: conference-mGeek.in-jekyll-theme
+
+permanent: /
 ---
 
-<div class="container" markdown="1">
 
-<div class="row" markdown="1">
 
-# [Conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)  
+# [Conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)
+{: class="mt-5"}  
 ---
 This is the Jekyll theme "conference-mgeek.in-jekyll-theme".
 This is jekyll theme template designed for conference website hosted by institute and colleges.
@@ -65,40 +60,45 @@ Or install it yourself as:
 ---  
 
 
-# Usage  
+# Usage layouts 
 
 
-## layour:default  
+## layour: default  post and page
 
 
 it use ***Bootstrap 4*** html as skelton hence all bootstrap classes are available.
 
 
-## layour:home   
-
+## layour: home   
 
 it use default layout but it also include unordered list to all the posts in the site that can be used to display ***updates*** and ***notices***  
 
-
-## layout:fullwidthhome   
+## layout: fullwidthhome   
 
 it is same is home except fullwidth is available for customization
 
 
-## layout:fullwidth   
+## layout:blank and blankfullwidth   
+blank layour remove all footer and header image keeping only header and navbar links
+blankfullwidth  gives you total control over the page view
 
 
+# navbar 
 
-### navbar logo   
+## logo   
   
-to change navbar logo place your png logo under directory /assets/images/logo.png and rename it as logo.png.
+to change navbar logo place your png logo file name `logo.png` under directory `/assets/images/` folder.
 preferable height of logo is 50px max
 to change site title change it in _config.yaml  
 
+## navbar header image
+
+it can be changed by placing a `headerimage.jpg` file under `/assets/images/` folder.
+preferable height of less than 400px max
 
 ###  custom navbar  
 
-  create a navbar.html file under _includes folder, as `/_includes/navbar.html`
+create a navbar.html file under _includes folder, as `/_includes/navbar.html`
 
 
 ###  custom footbar  
@@ -123,5 +123,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `conferen
 # License  
   
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-</div></div>
