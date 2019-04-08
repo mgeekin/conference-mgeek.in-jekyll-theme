@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-
-permanent: /
+topmenu: true
+title: Home
+order: 0
 ---
 
 
@@ -119,6 +120,27 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
 To add a custom directory to your theme-gem, please edit the regexp in `conference-mgeek.in.gemspec` accordingly.
+
+
+
+## add topmenu
+
+add yaml
+`topmenu: true` to make page apper in topmenu
+`order: <>` to order topmenu
+
+## add submenu under topmenu
+add yaml
+`submenu: true` to make page as in submenu
+`submenutype: topmenulabel` add this to list as submenu under topmenulabel
+`submenuindex: <>` to order submenu
+
+
+
+add yaml
+`topmenu: true` to make page apper in topmenu
+
+
 
 # License  
   

@@ -2,6 +2,8 @@
 layout: blank
 title: Sitemap
 permanent: /sitemap/
+topmenu: true
+order: 6
 ---
 
 

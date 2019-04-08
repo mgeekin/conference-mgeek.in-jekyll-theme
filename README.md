@@ -1,30 +1,13 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: post
+title: Read Me
+layout: page
+topmenu: true
+order: 10
 
 
 ---
-
-## add topmenu
-
-add yaml
-`topmenu: true` to make page apper in topmenu
-`order: <>` to order topmenu
-
-## add submenu under topmenu
-add yaml
-`submenu: true` to make page as in submenu
-`submenutype: topmenulabel` add this to list as submenu under topmenulabel
-`submenuindex: <>` to order submenu
-
-
-
-add yaml
-`topmenu: true` to make page apper in topmenu
-
-
 # [Conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)
 {: class="mt-5"}  
 ---
@@ -135,6 +118,27 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
 To add a custom directory to your theme-gem, please edit the regexp in `conference-mgeek.in.gemspec` accordingly.
+
+
+
+## add topmenu
+
+add yaml
+`topmenu: true` to make page apper in topmenu
+`order: <>` to order topmenu
+
+## add submenu under topmenu
+add yaml
+`submenu: true` to make page as in submenu
+`submenutype: topmenulabel` add this to list as submenu under topmenulabel
+`submenuindex: <>` to order submenu
+
+
+
+add yaml
+`topmenu: true` to make page apper in topmenu
+
+
 
 # License  
   
