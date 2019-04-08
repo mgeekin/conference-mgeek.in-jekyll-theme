@@ -7,6 +7,22 @@ layout: post
 
 ---
 
+## add topmenu
+
+add yaml
+`topmenu: true` to make page apper in topmenu
+`order: <>` to order topmenu
+
+## add submenu under topmenu
+add yaml
+`submenu: true` to make page as in submenu
+`submenutype: topmenulabel` add this to list as submenu under topmenulabel
+`submenuindex: <>` to order submenu
+
+
+
+add yaml
+`topmenu: true` to make page apper in topmenu
 
 
 # [Conference-mgeek-jekyll-theme](https://rubygems.org/gems/conference-mgeek.in-jekyll-theme)
