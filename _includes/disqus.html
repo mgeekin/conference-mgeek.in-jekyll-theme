@@ -18,9 +18,10 @@ this.page.identifier = {{ site.url }}{{site.baseurl}}{{ page.url }};
 };
 
 {% assign disqueurl = {{ site.url }} | replace: ".", "-"%}
+
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
-s.src = '{{ site.url}}{{site.baseurl}}.disqus.com/embed.js';
+s.src = '{{ disqueurl }}{{site.baseurl}}.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
