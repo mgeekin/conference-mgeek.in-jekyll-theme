@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-07-07 15:25:08 +0530
 categories: jekyll update
+comments: true
 ---
 
 

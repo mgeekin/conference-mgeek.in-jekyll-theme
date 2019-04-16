@@ -6,6 +6,7 @@ layout: home
 topmenu: true
 title: Home
 order: 0
+comments: true
 ---
 
 
