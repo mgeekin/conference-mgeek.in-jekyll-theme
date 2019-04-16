@@ -18,9 +18,8 @@ this.page.identifier = {{ site.url }}{{site.baseurl}}{{ page.url }};
 };
 
 {% assign u1 =  site.url  | replace: ".", "-"%}
-{% assign u2 =  u1  | replace: "://", ""%}
-{% assign u3 =  u2  | replace: "https", ""%}
-{% assign disqueurl =  u3  | replace: "http", ""%}
+{% assign u2 =  u1  | replace: "https://", ""%}
+{% assign disqueurl =  u2  | replace: "http://", ""%}
 
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
