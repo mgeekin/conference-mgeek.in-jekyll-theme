@@ -4,6 +4,7 @@ title: Contact
 permalink: /contact/
 topmenu: true
 order: 5
+comments: true
 ---
 [Contact us](mailto:prateekrajgautam.dev@gmail.com)
 ==========
