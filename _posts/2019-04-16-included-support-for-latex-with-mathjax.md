@@ -7,16 +7,9 @@ comments: true
 ---
 <div class="container" markdown="1">
 
-Now header links are generated automatically form the markdown files with layout pages
-{: class="container mt-5"}
-```
----
-layout: page
-title: Contact
-permalink: /contact/
----
+write math between double dollar sign 
+> $$    $$ 
 
-place your text here
-```
+and it will be displayed as math
 
 </div>

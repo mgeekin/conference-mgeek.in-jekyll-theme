@@ -1,3 +1,5 @@
+$ gem build conference-mgeek.in-jekyll-theme.gemspec
+$ gem push
 @echo git add .
 git add .
 git status

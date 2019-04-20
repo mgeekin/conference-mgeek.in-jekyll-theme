@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "conference-mgeek.in-jekyll-theme"
-  spec.version       = "0.3.01"
+  spec.version       = "0.3.02"
   spec.authors       = ["prateekrajgautam"]
   spec.email         = ["prateekrajgautam.dev@gmail.com"]
 
