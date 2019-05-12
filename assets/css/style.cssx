@@ -4,6 +4,7 @@
 }
 
 #landingdefault{
-    min-height:40vh;
+    min-height:80vh;
     padding-top:20px;
+    margin:0 auto;
 }
