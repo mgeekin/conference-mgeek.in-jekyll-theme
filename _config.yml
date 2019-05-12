@@ -48,3 +48,4 @@ topmenu: [true]
 submenu: [Classes]
 assets: https://raw.githubusercontent.com/mgeekin/conference-mgeek.in-jekyll-theme/master/assets/
 themeassets: https://raw.githubusercontent.com/mgeekin/conference-mgeek.in-jekyll-theme/master/assets/
+comments: true
