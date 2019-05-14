@@ -1,0 +1,1 @@
+$(#footercopy).insertAfter('hi');

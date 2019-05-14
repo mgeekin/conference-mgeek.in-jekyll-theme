@@ -1,3 +1,6 @@
+<div class="row" style="margin-top:30px;">
+
+</div>
 <div class="row">
     <div class="container">
         {% if page.comments %}
@@ -11,7 +14,7 @@
             {% assign u1 = site.url | replace: ".", "-" %}
             {% assign u2 = u1 | replace: "https://", "" %}
             {% if site.baseurl ~= "" %}
-                {% assign b1 = site.baseurl | replace: ".", "-" | replace: "/", "-" %}
+            {% assign b1 = site.baseurl | replace: ".", "-" | replace: "/", "-" %}
             {% endif %}
 
             {% assign u3 = u2 | replace: "http://", "" %}

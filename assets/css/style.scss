@@ -1,12 +1,22 @@
---- 
+---  
+
 # Front matter comment to ensure Jekyll properly reads file. 
---- 
+
+
+---  
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Exo|Play|Roboto+Mono|Unica+One');
 
-$ff1: "Roboto Mono","Play","Exo";
-$ff2: "Play","Exo";
-$ff3:"Exo","Play";
+
+$ff1: "Roboto Mono",
+"Play",
+"Exo";
+$ff2: "Play",
+"Exo";
+$ff3:"Exo",
+"Play";
 $ff4:"Unica+One";
 
 
@@ -28,11 +38,14 @@ h1 {
     color: red
 }
 
-#footer{
+#footer {
     font-family: $ff4;
 }
+
 #landingdefault {
     min-height: 80vh;
     padding-top: 20px;
     margin: 0 auto;
 }
+
+
